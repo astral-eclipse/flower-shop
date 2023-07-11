@@ -1,0 +1,265 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: poppins;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    height: 850px;
+    /* border: 1px solid red; */
+    align-items: center;
+    background-color: #FCEEF1;
+    
+}
+.hero-container{
+    display: flex;
+    width:80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.hero-img img{
+    width: 635px;
+    margin-top: 50px;
+}
+.title{
+    margin-top: 100px;
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+}
+.description{
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: regular;
+    opacity: 60%;
+}
+button{
+    color: #FFFFFF;
+    background-color: #E55473;
+    padding: 20px 43px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.feature-image{
+    display: flex;
+    justify-content: space-around;
+    width: 84%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+.feature-size{
+    width: 310px;
+    padding: 110px 77px 0px 77px;
+    
+}
+.feature h1{
+    font-weight: 800;
+    font-size: 40px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+}
+.feature p{
+    color: #272727;
+    opacity: 60%;
+    font-size: 18px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.feature-text{
+    margin-top: 75px;
+    text-align: center;
+}
+.feature {
+    position: relative;
+    margin-top: 48px;
+}
+  
+.feature-image {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.feature-size{
+    width: 310px;
+    position: relative;
+}
+.feature-size img {
+    width: 100%; /* Ensure the image fills its container */
+    height: 428px ; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing */
+    top: 48px;
+    left: 0;
+    bottom: 0;
+}
+  
+.feature1 {
+    border-radius: 100% 100% 0 0;
+    height: -1px;
+    background-color: #F2DEE7;
+    margin: 12px 0;
+    margin-bottom: 0;
+}
+.feature-img-text{
+    justify-content: center;
+    margin-left: 30%;
+    text-decoration: underline;
+    color: #000;
+    font-weight: bold;    
+    background-color: #FFFFFF;
+}
+.feature2 {
+    border-radius: 300px 300px 0 0;
+    height: -1px;
+    background-color: #D9EFF1;
+    margin: 12px 0;
+    margin-bottom: 0;
+}
+.feature3 {
+    border-radius: 300px 300px 0 0;
+    height: -1px;
+    background-color: #E3EBDB;
+    margin: 12px 0;
+    margin-bottom: 0;
+}
+.hot-deal{
+    margin-top: 128px;
+    font-family: lato;
+    display: flex;
+    justify-content: space-around;
+    height: 850px;
+    /* border: 1px solid red; */
+    align-items: center;
+    background-color: #FCEEF1;
+}
+.hot-deal-img img{
+    width: 318px;
+    margin-top: 50px;
+}
+.hot-deal .title{
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+.description{
+    font-family: poppins;
+    font-size: 18px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: regular;
+    opacity: 60%;
+}
+.hot-deal-text{
+    text-align: center;
+}
+.insta-photo{
+    margin-top: 128px;
+}
+.insta-photo-photo{
+    display: flex;
+    justify-content: space-around;
+}
+.insta-photo-text{
+    text-align: center;
+}
+.insta-photo-text h1{
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+.insta-photo-text p{
+    font-family: poppins;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    font-weight: regular;
+    opacity: 60%;
+}
+.subscribe{
+    margin-top: 128px;
+    height: 449px;
+    width: 80%;
+    background-image:url("./Flower_Asset/rectangle9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+input[type="email"] {
+    padding: 25px;
+    border-radius: 5px;
+    border: none;
+    width: 700px;
+    margin-right: 16px;
+    font-size: large;
+}
+.subscription-form {
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 20px;
+}
+.sub-content{
+    text-align: center;
+}
+.sub-content h1{
+    font-weight: 800;
+    color: #272727;
+    font-size:40px;
+}
+.sub-content p{
+    font-weight: regular;
+    font-size: 18px;
+    opacity: 60%;
+}
+footer{
+    margin-top: 128px;
+    background-color: #111010;
+    height: 30vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.title span{
+    color: #E55473;
+}
+footer h1{
+    color: #E55473;
+}
+footer span{
+    color: #FFF;
+}
+.fp1{
+    color: #FFF;
+    opacity: 90%;
+    font-weight: regular;
+    font-size: 18px;
+}
+.fp2{
+    color: #FFF;
+    font-weight: regular;
+    font-size: 16px;
+    opacity: 40%;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+.insta-photo-photo{
+    width: 84%;
+    margin-right: 8%;
+    margin-left: 8%;
+}
